@@ -26,8 +26,8 @@ int main()
     sf::Vector2f pos = sf::Vector2f(50, 450);
     int R = 50, G = 240, B = 170;
     for (int i = 0; i < ARR_SIZE; i++) {
-        arr[i].setFillColor(sf::Color(R,  G, B += 5 ));
-        arr[i].setPosition(pos.x += 10, pos.y);
+        arr[i].setFillColor(sf::Color(R+= 5,  G, B += 5 ));
+        arr[i].setPosition(pos.x += 13, pos.y);
         arr[i].setSize(sf::Vector2f(10, rand() % (200 - 20 - 1) + 20));
     }
     
