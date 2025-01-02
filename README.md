@@ -2,6 +2,7 @@
 
 A bubble sort simulation created using C++ (the SFML library) that sorts a randomly generated array through the bubble sort algorithm.
 
+
 ## Installation
 
 1. **Clone the Repository**
@@ -11,11 +12,12 @@ A bubble sort simulation created using C++ (the SFML library) that sorts a rando
     ```
     Or download it as zip.
 
-2. **Run the simulation**
-    - Navigate to 'Project1' folder
-    - Run the 'Bubble-Sort-Simulation.exe' file
-    - Or, compile and run the 'main.cpp' file
 
+## Usage
+
+1. Navigate to the 'Project1' folder
+2. Run the 'bubble-sort-simulation.exe' file
+   
 **A randomly generated array is now sorted using bubble sort visually**
 
 
